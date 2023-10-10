@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print-alphabet - displays the alphabet in lowercase
  *
  * Return: 0 if completed successfully
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 

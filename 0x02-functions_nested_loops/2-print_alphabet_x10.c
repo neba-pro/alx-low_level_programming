@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet_x10 - prints the aplphabet in lowercase 10 times
  *
  * Return: 0 if completed successfully
  *
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 
