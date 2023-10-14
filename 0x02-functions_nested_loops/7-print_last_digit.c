@@ -11,11 +11,12 @@ int print_last_digit(int c)
 	int conv;
 
 	if (c > 0)
-	_putchar(c % 10 + '0');
+		_putchar(c % 10 + '0');
 	else if (c == 0)
 		_putchar(48);
 	else
 	{
+		_putchar('-');
 		conv = -1 * c;
 		_putchar(conv % 10 + '0');
 	}
