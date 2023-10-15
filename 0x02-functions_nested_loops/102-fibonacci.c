@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int i, fib1, fib2, list;
+	long int i, fib1, fib2, list;
 
 	fib1 = 1;
 	fib2 = 2;
