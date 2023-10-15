@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	long int i, fib1, fib2, list;
+	long int fib1, fib2, list;
+	int i;
 
 	fib1 = 1;
 	fib2 = 2;
@@ -24,14 +25,14 @@ int main(void)
 			if (i != 50)
 			{
 				list = fib1 + fib2;
-				printf("%d, ", list);
+				printf("%ld, ", list);
 				fib1 = fib2;
 				fib2 = list;
 			}
 			else
 			{
 				list = fib1 + fib2;
-				printf("%d\n", list);
+				printf("%ld\n", list);
 			}
 		}
 	}
