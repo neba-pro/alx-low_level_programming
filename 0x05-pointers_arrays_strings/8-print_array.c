@@ -11,9 +11,6 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (j = 0; a[i]; i++)
-	{
-	}
 	for (i = 0; i < n; i++)
 	{
 		if (n != 1)
