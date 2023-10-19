@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * reverse_array - reverses array
@@ -11,11 +12,15 @@ void reverse_array(int *a, int n)
 	int i;
 
 	if (n == 0)
-		_putchar('\n');
+		printf("\n");
 	else
 	{
 		for (i = n - 1; i >= 0; i--)
-			_putchar(a[i]);
+		{
+			if ( i != 0)
+				printf("%d, ", a[i]);
+			else
+				printf("%d\n", a[i]);
+		}
 	}
-	_putchar('\n');
 }
