@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -22,4 +23,4 @@ char *create_array(unsigned int size, char c)
 		new[i] = '\0';
 	}
 	return (new);
-}
+i}
